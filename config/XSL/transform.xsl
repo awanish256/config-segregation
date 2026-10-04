@@ -3,7 +3,7 @@
   <xsl:output method="xml" indent="yes"/>
   <xsl:template match="/">
     <result>
-      <xsl:value-of select="/order/id"/>
+      <xsl:value-of select="/PaymentOrder/id"/>
     </result>
   </xsl:template>
 </xsl:stylesheet>
